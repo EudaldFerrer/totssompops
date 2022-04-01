@@ -1,0 +1,90 @@
+.color-fondo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #FF7F99;
+    
+}
+
+.avatar1{
+    background-image: url(/totssompops/images/eudald.png);
+    height: 277px;
+    width: 277px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+    
+}
+
+.avatar2{
+    background-image: url(/totssompops/images/eudald.png);
+    height: 277px;
+    width: 277px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+    
+}
+
+.avatar3{
+    background-image: url(/totssompops/images/robert.png);
+    height: 277px;
+    width: 277px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+    
+}
+
+.avatar4{
+    background-image: url(/totssompops/images/eudald.png);
+    height: 277px;
+    width: 277px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+    
+}
+
+.linkedin{
+    height: 40px;
+    width: 40px;
+}
+
+.nom-treballadors{
+    color: white;
+}
+
+.Eudald-Ferrer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.Laura-Parra{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.Robert-Camara{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.David-Martinez{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
