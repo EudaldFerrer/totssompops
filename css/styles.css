@@ -126,9 +126,52 @@ html{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    padding-top: 25px;
 }
 
 .nom-tre{
     padding-left: 35px;
     font-size: 60px;
+}
+
+.amplada{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FF7F99;
+    height: 100px;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar{
+    padding-right: 40px;
+    color: white;
+    
+}
+
+.logo{
+    display: inline;
+    color: #FFCA41;
+}
+
+.logo1{
+    display: inline;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: #FFCA41;
 }
