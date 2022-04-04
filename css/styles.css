@@ -13,6 +13,16 @@ html{
     
 }
 
+.atras{
+    background-image: url(/images/hacia-atras.png);
+    height: 40px;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+
 .avatar1{
     background-image: url(/images/eudald.png);
     height: 277px;
@@ -111,7 +121,8 @@ html{
 .foto-nombre{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
 }
 
