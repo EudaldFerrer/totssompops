@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100&display=swap');
+
 html{
     font-family: 'Jost', sans-serif;
 }
@@ -12,7 +14,7 @@ html{
 }
 
 .avatar1{
-    background-image: url(/totssompops/images/eudald.png);
+    background-image: url(/images/eudald.png);
     height: 277px;
     width: 277px;
     background-repeat: no-repeat;
@@ -23,7 +25,7 @@ html{
 }
 
 .avatar2{
-    background-image: url(/totssompops/images/laura.png);
+    background-image: url(/images/laura.png);
     height: 277px;
     width: 277px;
     background-repeat: no-repeat;
@@ -34,7 +36,7 @@ html{
 }
 
 .avatar3{
-    background-image: url(/totssompops/images/robert.png);
+    background-image: url(/images/robert.png);
     height: 277px;
     width: 277px;
     background-repeat: no-repeat;
@@ -45,7 +47,7 @@ html{
 }
 
 .avatar4{
-    background-image: url(/totssompops/images/eudald.png);
+    background-image: url(/images/david.png);
     height: 277px;
     width: 277px;
     background-repeat: no-repeat;
@@ -62,6 +64,7 @@ html{
 
 .nom-treballadors{
     color: white;
+    margin-bottom: 0%;
 }
 
 .Eudald-Ferrer{
@@ -69,6 +72,8 @@ html{
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
+    padding-top: 35px;
+    padding-bottom: 30px;
     
 }
 
@@ -77,6 +82,8 @@ html{
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
+    padding-top: 35px;
+    padding-bottom: 30px;
 }
 
 .Robert-Camara{
@@ -84,6 +91,8 @@ html{
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
+    padding-top: 35px;
+    padding-bottom: 30px;
 }
 
 .David-Martinez{
@@ -91,5 +100,22 @@ html{
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
+    padding-top: 35px;
+    padding-bottom: 30px;
 }
 
+.descripcio{
+    color: black;
+}
+
+.foto-nombre{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.nom-tre{
+    padding-left: 35px;
+    font-size: 60px;
+}
