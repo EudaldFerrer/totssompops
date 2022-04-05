@@ -13,6 +13,65 @@ html{
     
 }
 
+.principal{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+.principal2{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.foto-principal{
+    padding-top: 30px;
+    height: 650px;
+    width: 650px;
+    padding-bottom: 30px;
+}
+
+.title-1{
+    color: #FF7F99;
+    font-size: 80px;
+    margin-bottom: 0px;
+}
+
+.title-11{
+    color: #FF7F99;
+    font-size: 80px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.title-2{
+    color: black;
+    margin-top: 0%;
+    font-weight: bolder;
+}
+
+.button-2{
+    margin-top: 30px;
+    background-color: #FF7F98;
+    border-radius: 60px;
+    height: 45px;
+    width: 200px;
+    border-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+.button-1{
+    margin-top: 30px;
+    background-color: #FFCA41;
+    border-radius: 60px;
+    height: 45px;
+    width: 200px;
+    border-color: #FFCA41;
+    color: white;
+}
+
 .atras{
     background-image: url(/images/hacia-atras.png);
     height: 40px;
